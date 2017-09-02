@@ -1,6 +1,6 @@
 # Deep Market Models
 
-In this repository, we explore the use of univariate long short-term memory neural networks (LSTMs) in conjunction with different trading and hedging algorithms in order to maximize profits over a fixed short term period. We plan on comparing our algorithms to High Frequency Trading (HFT) algorithms. 
+In this repository, we explore the use of univariate long short-term memory neural networks (LSTMs) in conjunction with different trading and hedging algorithms in order to maximize profits over a fixed, short term period. We plan on comparing our algorithms to High Frequency Trading (HFT) algorithms. 
 
 To this point, we have designed and trained a network architecture to predict the close price of different stocks. Some inital results look like we are fitting to the data well without over fitting:
 
