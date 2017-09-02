@@ -13,7 +13,7 @@ Now that we have saved the .json (topology) and .h5 (weights) for each model, we
 
 ![](MarketFits/gitexamples.jpg "Color Plot")
 
-We would like to thank the kaggle community, without reading their discussion, we would  - https://www.kaggle.com/dgawlik/nyse
+We would like to thank the kaggle community, without reading their discussion, development would have been much more difficult.  - https://www.kaggle.com/dgawlik/nyse
 
 #### Dependencies:
 Numpy <br /> 
