@@ -1,11 +1,13 @@
 # Deep Market Models
 
-As a computer scientist, I know absolutely nothing about financial markets. But, over the course of the next few semesters, I hope to learn a little bit about how computational models can predict the movements of financial markets.
+In this repository, we explore the use of very simplistic, univariate LSTMs in conjunction with different trading and hedging algorithms in order to maximize profits over a fixed short term period. We plan on comparing our algorithms to High Frequency Trading (HFT) algorithms. 
 
-After being presented with a bunch of new data (mainly from finance.yahoo.com), I went in search of some LSTM implimentations. I found a good amount of discussion on kaggle [1]. So far, all I have done is collected a dataset and trained (over 5 epochs) a basic LSTM.
+To this point, we have designed and trained a network architecture to predict the close price of different stocks. Some inital results look like we are fitting to the data well without over fitting:
 
-As I learn, I will impliment more than these Deep Market Models, but will look to benchmark and improve the initial LSTM.
+![](https://github.com/matthewwicker/DeepMarketModels/blob/master/MarketFits/download%209.png)
+![](https://github.com/matthewwicker/DeepMarketModels/blob/master/MarketFits/download%2011.png "BAC Model Fit")
 
+Now that we have saved the .json (topology) and .h5 (weights) for each model, we will continue evaluating the models performance--especically in prediction. With its performance in mind, we will begin to think of suitable trading algorithms. 
 
 [1] - https://www.kaggle.com/dgawlik/nyse
 
