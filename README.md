@@ -4,8 +4,8 @@ In this repository, we explore the use of very simplistic, univariate LSTMs in c
 
 To this point, we have designed and trained a network architecture to predict the close price of different stocks. Some inital results look like we are fitting to the data well without over fitting:
 
-![](https://github.com/matthewwicker/DeepMarketModels/blob/master/MarketFits/download%209.png)
-![](https://github.com/matthewwicker/DeepMarketModels/blob/master/MarketFits/download%2011.png "BAC Model Fit")
+![](MarketFits/download%209.png)
+![](/MarketFits/download%2011.png "BAC Model Fit")
 
 Now that we have saved the .json (topology) and .h5 (weights) for each model, we will continue evaluating the models performance--especically in prediction. With its performance in mind, we will begin to think of suitable trading algorithms. 
 
